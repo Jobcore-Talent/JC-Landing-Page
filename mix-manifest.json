@@ -1,0 +1,8 @@
+{
+    "/dist/assets/css/theme.min.css": "/dist/assets/css/theme.min.css",
+    "/dist/docs/assets/css/docs.min.css": "/dist/docs/assets/css/docs.min.css",
+    "/dist/assets/vendor/typed.js": "/dist/assets/vendor/typed.js",
+    "/dist/assets/vendor/countup.js": "/dist/assets/vendor/countup.js",
+    "/dist/assets/js/theme.min.js": "/dist/assets/js/theme.min.js",
+    "/dist/assets/js/theme.core.min.js": "/dist/assets/js/theme.core.min.js"
+}

@@ -1,23 +1,19 @@
 {
     "name": "square",
     "version": "1.0.2",
-    "description": "Square - Premium Bootstrap Theme",
+    "description": "JobCore",
     "keywords": [
-        "css",
-        "sass",
         "mobile-first",
         "responsive",
-        "front-end",
-        "framework",
         "web",
-        "bootstrap",
-        "webinning",
-        "theme",
-        "square",
-        "premium",
-        "gulp",
-        "webpack",
-        "laravel-mix"
+        "app",
+        "jobs",
+        "search",
+        "payroll",
+        "paid",
+        "schedule employee",
+        "time tracking",
+        "find talnet"
     ],
     "scripts": {
         "dev": "npm run development",

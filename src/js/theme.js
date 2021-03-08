@@ -657,7 +657,6 @@ var StickyElement = (function() {
 
 // CountUp
 var CounterUp = (function() {
-    console.log('hello world')
     // Variables
     var countup = document.querySelectorAll('[data-countup]'),
         preloader = document.querySelector('.preloader');
