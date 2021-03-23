@@ -41,6 +41,7 @@ gulp.task('nunjucks', function(done) {
         }))
         .pipe(nunjucksRender({
             path: paths.src.templates,
+            ext: config.env === 'production' ? '' : '.html',
             envOptions: {
                 lstripBlocks: true,
                 autoescape: true,
