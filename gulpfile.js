@@ -41,7 +41,6 @@ gulp.task('nunjucks', function(done) {
         }))
         .pipe(nunjucksRender({
             path: paths.src.templates,
-            ext: config.env === 'production' ? '' : '.html',
             envOptions: {
                 lstripBlocks: true,
                 autoescape: true,
@@ -268,7 +267,10 @@ function browserSyncInit(done) {
         port: 3000,
         proxy: false,
 		server: {
-            baseDir: paths.base.dir
+            baseDir: paths.base.dir,
+            serveStaticOptions: {
+                extensions: ['html']
+            }
         }
 	});
 	done();

@@ -21,7 +21,10 @@ mix
         port: 3000,
         proxy: false,
         server: {
-            baseDir: paths.base.dir
+            baseDir: paths.base.dir,
+            serveStaticOptions: {
+                extensions: ['html']
+            }
         },
         files: [
             '**/*.njk',
