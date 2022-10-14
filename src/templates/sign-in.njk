@@ -27,7 +27,7 @@
                                     <input class="form-control form-control-lg" id="password" type="password" placeholder="Password" aria-label="Password" />
                                 </div>
                                 <div class="form-group">
-                                    <button type="button" onClick="fetch('https://jobcore.herokuapp.com/api/login', {
+                                    <button type="button" onClick="fetch("https://employer-web-client-iota-ashen.vercel.app/login", {
                                         method: 'post',
                                         headers: {
                                             'Accept': 'application/json, text/plain, */*',
@@ -38,7 +38,7 @@
                                         .then(res => {
                                             console.log(res);
                                             if(res['non_field_errors']) document.getElementById('error').style.display = 'block';
-                                            else window.location.href = 'https://employer.jobcore.co/?token=' + res['token'];
+                                            else window.location.href = 'https://employer-web-client-iota-ashen.vercel.app/?token=' + res['token'];
                                         });"class="btn btn-primary btn-lg btn-block text-uppercase">Sign In</button>
                                 </div>
                                 <p class="small text-muted mb-0">Don't have an account yet? <a href="https://employer.jobcore.co/signup" class="text-secondary text-underline">Sign Up</a></p>
