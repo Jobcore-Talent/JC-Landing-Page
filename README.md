@@ -1,64 +1,38 @@
-# Square - Premium Bootstrap Theme
+# JOBCORE'S LANDING PAGE REPOSITORY
 
-## Prerequisites
+### CONTENTS OF THIS FILE
+* Installation
+* Usage
+* Notes
+* Contributing
+* Maintainers
 
-```
-Node.js
-```
-
-## Installing
-
-```
-npm install
-```
-
-### Gulp
-#### Running in dev mode with Browsersync watch
-
-It will run a local dev server `http://localhost:3000` and open the first page `http://localhost:3000/index.html`.
-Any changes in the code will reload the page immediately. It will generate the code into `temp` folder.
-```
-gulp
-```
-
-#### Running in dev mode without watch
-
-It will generate the code into `temp` folder
+## INSTALLATION
+Use the following command to run this repo.
 
 ```
-gulp dev
+$ nvm install 12; npm install; npm run watch
 ```
 
-#### Production mode
+## USAGE
 
-It will generate a dist folder with minified js, css, html files.
+This is Job Core's landing page. It is not connected to the backed, but it links to the live employee mobile app and to the live employer web app.
 
-```
-gulp prod
-```
-### Laravel Mix (Webpack wrapper)
-#### Running in dev mode with Browsersync watch
+## NOTES
 
-It will run a local dev server `http://localhost:3000` and open the first page `http://localhost:3000/index.html`.
-Any changes in the code will reload the page immediately. It will generate the code into `temp` folder.
-```
-npm run watch
-```
+If using Gitpod, remember to pin this workspace and rename it accordingly for future use.
 
-#### Running in dev mode without watch
+## CONTRIBUTING
 
-It will generate the code into `temp` folder
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-```
-npm run dev
-```
+Please make sure to update tests as appropriate.
 
-#### Production mode
+## MAINTAINERS
 
-It will generate a dist folder with minified js, css, html files.
+Current maintainers:
+* Israel Vasquez (Lead Developer) - israel@jobcore.co
 
-```
-npm run prod
-```
-
-More information on the website.# jobcore-landing-page
+This project has been sponsored by:
+* JOBCORE
+   The job marketplace for the hospitality industry. Visit https://jobcore.co/ for more information.

@@ -1325,7 +1325,7 @@ function getStartedEmail() {
 
 function getStartedEmailToEmployer() {
   let querystring = window.location.search.substring(1);
-  window.location.href = `https://employer.jobcore.co/signup?${querystring}`;
+  window.location.href = "https://employer-web-client-iota-ashen.vercel.app/signup";
 }
 
 function isInViewport(elem) {
